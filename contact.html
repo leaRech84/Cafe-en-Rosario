@@ -95,25 +95,25 @@
                     Todos los campos son obligatorios
                 </div>
 
-                <form action="#">
+                <form action="" method="POST" id="form">
                     <input
                         type="text"
                         name=""
-                        id=""
-                        placeholder="Nombre"
+                        id="name"
+                        placeholder="Nombre Completo"
                         required
                     />
                     <input
                         type="number"
                         name=""
-                        id=""
+                        id="telefono"
                         placeholder="Teléfono"
                         required
                     />
                     <input
                         type="email"
                         name=""
-                        id=""
+                        id="email"
                         placeholder="Email"
                         required
                     />
@@ -131,6 +131,7 @@
                         placeholder="Message"
                     ></textarea>
                     <button type="submit">Enviar</button>
+                    <p class="warnings" id="warnings"></p>
                 </form>
             </div>
 

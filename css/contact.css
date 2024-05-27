@@ -61,6 +61,14 @@
 
 /* <!-- second section  --> */
 
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
+
 .FormMap {
     display: flex;
     padding: 4rem 5%;
