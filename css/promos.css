@@ -123,7 +123,7 @@
 .aboutServices .ser-box .box .img img {
     width: 100%;
     border-radius: 2%;
-    height: 100%
+    height: auto
 }
 
 .aboutServices .ser-box .box .boxinfo {
@@ -140,21 +140,10 @@
     font-weight: 700;
 }
 
-
-/* -------DiscountSection------- */
-.DiscountSection {
-    padding: 7rem 5%;
-    margin-bottom: 4rem;
-
-}
-
-
 /* --------img slider------- */
 
 .imgslidertext {
-    /* height: 100vh; */
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     gap: 2rem;
     margin-bottom: 4rem;
@@ -173,46 +162,7 @@
 
 }
 
-.imgslidertext .imgslider .slide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    height: 100%;
-    z-index: -1;
-    transition: all .5s ease;
-    top: 0;
-    left: 0;
-}
 
-.imgslidertext .imgslider .prev {
-    position: absolute;
-    left: 0%;
-    top: 50%;
-    margin-left: 1rem;
-    color: wheat;
-    transition: .4s;
-    cursor: pointer;
-
-}
-
-.imgslidertext .imgslider .next {
-    position: absolute;
-    right: 0%;
-    top: 50%;
-    margin-right: 1rem;
-    color: wheat;
-    transition: .4s;
-    cursor: pointer;
-
-}
-
-.imgslidertext .imgslider .prev:hover,
-.imgslidertext .imgslider .next:hover {
-    transform: scale(2);
-    color: var(--global-color-1);
-    transition: all 4 ease;
-
-}
 
 .imgslidertext .slideText {
     width: 60%;

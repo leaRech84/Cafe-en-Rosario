@@ -80,6 +80,11 @@
     padding: 5rem 5%;
 }
 
+.DiscountSection a {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* beforeAfter  */
 .beforeAfter {
