@@ -78,6 +78,8 @@
 }
 
 .aboutServices .ser-text {
+    font-weight: 500;
+    font-size: x-large;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -116,14 +118,14 @@
 
 .aboutServices .ser-box .box .img {
     width: 100%;
-    height: 100%;
+    height: 300px;
     overflow-y: hidden;
 }
 
 .aboutServices .ser-box .box .img img {
     width: 100%;
     border-radius: 2%;
-    height: auto
+    height: 100%
 }
 
 .aboutServices .ser-box .box .boxinfo {
@@ -135,9 +137,25 @@
 }
 
 .aboutServices .ser-box .box .ser-name {
-    padding-bottom: .8rem;
+    display: flex;
+    justify-content: center;
+    padding: .8rem;
     font-size: 1.4rem;
     font-weight: 700;
+    color: var(--global-color-1);
+    background-color: var(--global-color-3);
+    border-radius: 2rem;
+}
+
+.ser-discription {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    background-color: var(--global-color-5);
+    color: var(--global-color-3);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
 }
 
 /* --------img slider------- */
@@ -192,6 +210,10 @@
     color: black;
     font-size: 1.6rem;
     margin-bottom: 1rem;
+}
+
+.slide {
+    height: 300px;
 }
 
 

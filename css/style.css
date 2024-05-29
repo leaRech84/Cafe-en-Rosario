@@ -353,7 +353,7 @@ font-weight: 600;
 
 .sectionSecond .fourIMG img {
     width: 100%;
-    height: 80%;
+    height: 150px;
     border-radius: 10px;
     transition: all .4s ease;
 }
@@ -385,8 +385,6 @@ font-weight: 600;
     font-weight: 400;
     font-family: var(--body-font);
 }
-
-/* .sectionSecond .textInfo .para {} */
 
 .sectionSecond .textInfo .btn {
     border: 1px solid var(--global-color-0);
@@ -425,6 +423,7 @@ font-weight: 600;
 
 .sectionThree>p {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .sectionThree .servicesBox {
@@ -451,6 +450,8 @@ font-weight: 600;
 
 .sectionThree .servicesBox .box p {
     font-family: var(--body-font);
+    font-size: 1rem;
+
 }
 
 

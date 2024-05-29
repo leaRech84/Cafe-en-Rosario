@@ -144,6 +144,7 @@
 .aboutTeam-Info .teamText .t-team {
     font-family: var(--font-02);
     font-weight: 400;
+    font-size: 1.3rem;
 }
 
 .aboutTeam-Info .teamText .t-heading {
@@ -153,7 +154,10 @@
     color: var(--global-color-1);
 }
 
-/* .aboutTeam-Info .teamText .t-lines {} */
+.aboutTeam-Info .teamText .t-lines {
+    font-size: 1.1rem;
+    font-weight: 500;
+} 
 
 .aboutTeam-Info .teamImgInfo {
     display: grid;
