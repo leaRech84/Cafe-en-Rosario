@@ -105,9 +105,6 @@
     color: var(--global-color-0);
 }
 
-.FormMap .form .f-para {
-}
-
 .FormMap .form form {
     display: flex;
     flex-direction: column;
