@@ -76,24 +76,24 @@
     </section>
 
     <!-- second section  -->
-    <section class="FormMap">
+    <div class="FormMap">
         <div class="form">
             <div class="f-head">Formulario de Contacto</div>
             <div class="f-para">
                 Todos los campos son obligatorios
             </div>
 
-            <form action="" method="POST" id="form">
-                <input type="text" name="" id="name" placeholder="Nombre Completo" required />
-                <input type="number" name="" id="telefono" placeholder="Teléfono" required />
-                <input type="email" name="" id="email" placeholder="Email" required />
-                <select name="#" id="">
-                    <option value="#" disabled>Selecionar</option>
+            <form method="POST" id="form">
+                <input type="text" name="nombre" id="name" placeholder="Nombre Completo" required>
+                <input type="number" name="tel" id="telefono" placeholder="Teléfono" required>
+                <input type="email" name="mail" id="email" placeholder="Email" required>
+                <select name="#" id="nom">
+                    <option value="#" disabled>Seleccionar</option>
                     <option value="#">Soy usuario</option>
                     <option value="#">Soy emprendedor</option>
                     <option value="#">Prefiero no dar esa información</option>
                 </select>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <textarea name="nombre" id="noombretext" cols="30" rows="10" placeholder="Message"></textarea>
                 <button type="submit">Enviar</button>
                 <p class="warnings" id="warnings"></p>
             </form>
@@ -103,7 +103,7 @@
             <iframe src="https://www.google.com/maps/d/embed?mid=1-OdB2d2YVysWP1cbaybRTXLtmS2vg725&ehbc=2E312F"
                 width="640" height="480"></iframe>
         </div>
-    </section>
+    </div>
 
     <!-- beforefooter  -->
     <div class="beforefooter">
@@ -120,7 +120,7 @@
             <div class="bf-text">Subscribite y recibí Ofertas</div>
 
             <div class="subscribe">
-                <input type="email" name="" id="E-mail" placeholder="tucorreo@gmail.com" style="font-size: 1.5rem;">
+                <input type="email" name="mail" id="E-mail" placeholder="tucorreo@gmail.com" style="font-size: 1.5rem;">
                 <button class="btn">Suscribirme</button>
             </div>
         </div>
