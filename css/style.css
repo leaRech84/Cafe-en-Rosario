@@ -8,7 +8,110 @@
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
- @-webkit-keyframes bounce-in-top{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes bounce-in-top{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+@-webkit-keyframes bounce-in-top {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    55% {
+        -webkit-transform: translateY(-65px);
+        transform: translateY(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    81% {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    95% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+@keyframes bounce-in-top {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    38% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    55% {
+        -webkit-transform: translateY(-65px);
+        transform: translateY(-65px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    72% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    81% {
+        -webkit-transform: translateY(-28px);
+        transform: translateY(-28px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    90% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    95% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
 
 * {
     padding: 0;
@@ -16,12 +119,9 @@
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
     overflow-x: hidden;
-
-
 }
 
 :root {
-
     /* color  */
     --global-color-0: #a59e78;
     --global-color-1: #dac17f;
@@ -30,19 +130,17 @@
     --global-color-4: #f7f7f7;
     --global-color-5: #fff;
     --global-color-6: #243673;
-    --global-color-7: #BFD1FF;
+    --global-color-7: #bfd1ff;
 
-      /* Font and typography */
-      --body-font: "DM Sans", sans-serif;
-      --h1-font-size: 1.5rem;
-      --normal-font-size: 0.938rem;
-      --tiny-font-size: 0.625rem;
-  
-      /* z-index */
-      --z-tooltip: 10;
-      --z-fixed: 100;
+    /* Font and typography */
+    --body-font: "DM Sans", sans-serif;
+    --h1-font-size: 1.5rem;
+    --normal-font-size: 0.938rem;
+    --tiny-font-size: 0.625rem;
 
-
+    /* z-index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
 }
 
 /* Responsive typography */
@@ -52,8 +150,6 @@
         --normal-font-size: 1rem;
     }
 }
-
-
 
 body {
     overflow-x: hidden;
@@ -76,9 +172,16 @@ img {
     overflow-y: hidden;
 }
 
-.heading {-webkit-animation:bounce-in-top 1.1s both;animation:bounce-in-top 1.1s both}
+.heading {
+    -webkit-animation: bounce-in-top 1.1s both;
+    animation: bounce-in-top 1.1s both;
+}
 
-.card-title,header,h2, h1 {
+.card-title,
+header,
+h2,
+h1,
+.btn {
     overflow-y: hidden;
 }
 
@@ -94,7 +197,7 @@ img {
     z-index: var(--z-fixed);
     transition: 0.4s;
     border-radius: 0 0 1.25rem 1.25rem;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     align-content: center;
 }
 
@@ -115,14 +218,10 @@ img {
 .nav_logo {
     color: var(--global-color-1);
     font-weight: 600;
-}/* Change background header */
+} /* Change background header */
 .scroll-header {
     box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
-  }
-
-
-
-
+}
 
 @media screen and (max-width: 767px) {
     .nav_menu {
@@ -176,7 +275,6 @@ img {
     font-weight: 600;
 }
 
-
 /* For medium devices */
 @media screen and (min-width: 576px) {
     .nav_list {
@@ -207,46 +305,43 @@ img {
         color: var(--first-color);
     }
 
-        .active-link::before {
-            content: "";
-            position: absolute;
-            bottom: -0.75rem;
-            width: 4px;
-            height: 4px;
-            background-color: var(--first-color);
-            border-radius: 50%;
-        }
-    }
-
-    section.active {
-        position: relative;
-    }
-
-    section.active:after {
-        content: '';
+    .active-link::before {
+        content: "";
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #474747;
-        z-index: 1;
-        opacity: .91;
+        bottom: -0.75rem;
+        width: 4px;
+        height: 4px;
+        background-color: var(--first-color);
+        border-radius: 50%;
     }
+}
 
+section.active {
+    position: relative;
+}
 
-
+section.active:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #474747;
+    z-index: 1;
+    opacity: 0.91;
+}
 
 .sectionFirst {
     padding: 10rem 0% 5rem;
     position: relative;
     color: var(--global-color-4);
-    border-radius:0 0 1.25rem 1.25rem ;
+    border-radius: 0 0 1.25rem 1.25rem;
     overflow: hidden;
 }
 
 .sectionFirst::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -254,11 +349,11 @@ img {
     height: 100%;
     background-color: var(--global-color-2);
     z-index: -1;
-    opacity: .7;
+    opacity: 0.7;
 }
 
 .sectionFirst::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -266,7 +361,7 @@ img {
     height: 100%;
     background-image: url("../img/backgroundimg.jpg");
     z-index: -1;
-    opacity: .7;
+    opacity: 0.7;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -296,12 +391,13 @@ img {
 }
 
 .sectionFirst .frontPage .para {
-font-weight: 600;
+    font-weight: 600;
 }
 
 .sectionFirst .frontPage .btn {
     margin-top: 3rem;
     gap: 2rem;
+    padding: 17px 30px;
 }
 
 .sectionFirst .frontPage .btn a {
@@ -314,7 +410,7 @@ font-weight: 600;
     border: 1px solid var(--global-color-0);
     background-color: var(--global-color-0);
     color: var(--global-color-4);
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 .sectionFirst .frontPage .btn a:nth-child(1):hover {
@@ -326,7 +422,7 @@ font-weight: 600;
     border: 1px solid var(--global-color-0);
     background-color: var(--global-color-4);
     color: var(--global-color-0);
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 .sectionFirst .frontPage .btn a:nth-child(2):hover {
@@ -334,7 +430,6 @@ font-weight: 600;
     background-color: var(--global-color-1);
     color: var(--global-color-4);
 }
-
 
 /* section second  */
 
@@ -359,14 +454,14 @@ font-weight: 600;
     width: 100%;
     height: 150px;
     border-radius: 10px;
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 .sectionSecond .fourIMG img:hover {
     transform: scale(1.1);
 }
 
-.sectionSecond .fourIMG img:nth-child(2n+1) {
+.sectionSecond .fourIMG img:nth-child(2n + 1) {
     margin-top: 4rem;
 }
 
@@ -381,7 +476,6 @@ font-weight: 600;
     color: var(--global-color-0);
     font-family: var(--body-font);
     font-size: 1.5rem;
-
 }
 
 .sectionSecond .textInfo .title {
@@ -399,15 +493,13 @@ font-weight: 600;
     background-color: var(--global-color-1);
     color: var(--global-color-4);
     font-weight: 400;
-    transition: all .4s ease;
-
+    transition: all 0.4s ease;
 }
 
 .sectionSecond .textInfo .btn:hover {
     background-color: var(--global-color-0);
     border: 1px solid var(--global-color-0);
 }
-
 
 /* sectionThree */
 .sectionThree {
@@ -418,14 +510,14 @@ font-weight: 600;
     background-color: #8484840a;
 }
 
-.sectionThree>h2 {
+.sectionThree > h2 {
     font-size: 2.5rem;
     font-family: var(--font-02);
     color: var(--global-color-0);
     text-align: center;
 }
 
-.sectionThree>p {
+.sectionThree > p {
     text-align: center;
     font-size: 1.5rem;
 }
@@ -455,9 +547,7 @@ font-weight: 600;
 .sectionThree .servicesBox .box p {
     font-family: var(--body-font);
     font-size: 1rem;
-
 }
-
 
 /* DiscountSection */
 
@@ -471,7 +561,7 @@ font-weight: 600;
 }
 
 .DiscountSection::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -482,11 +572,10 @@ font-weight: 600;
     background-position: center;
     background: url("../img/banner-cafe-25.jpg");
     z-index: -2;
-
 }
 
 .DiscountSection::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -494,15 +583,13 @@ font-weight: 600;
     height: 100%;
     background-color: var(--global-color-3);
     z-index: -2;
-    opacity: .75;
-
+    opacity: 0.75;
 }
 
 .DiscountSection .img {
     max-height: 7rem;
     max-width: 7rem;
     overflow-y: hidden;
-
 }
 
 .DiscountSection .img img {
@@ -533,7 +620,7 @@ font-weight: 600;
     background-color: transparent;
     color: var(--global-color-4);
     font-weight: bold;
-    transition: all .4s ease;
+    transition: all 0.4s ease;
     justify-content: center;
 }
 
@@ -542,7 +629,6 @@ font-weight: 600;
     color: var(--global-color-1);
     border: 1px solid var(--global-color-4);
 }
-
 
 /* transformBox */
 
@@ -560,7 +646,7 @@ font-weight: 600;
 }
 
 .transformBox::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -574,7 +660,7 @@ font-weight: 600;
 }
 
 .transformBox::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -582,7 +668,7 @@ font-weight: 600;
     height: 100%;
     background-color: var(--global-color-2);
     z-index: -2;
-    opacity: .65;
+    opacity: 0.65;
 }
 
 .transformBox h2 {
@@ -644,7 +730,7 @@ font-weight: 600;
     font-size: large;
     border-radius: 50%;
     color: var(--global-color-0);
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 .sectionSix .icon a:hover {
@@ -674,8 +760,6 @@ font-weight: 600;
     padding-bottom: 1rem;
 }
 
-
-
 .sectionSix .btn {
     border: 1px solid var(--global-color-0);
     width: fit-content;
@@ -685,15 +769,13 @@ font-weight: 600;
     background-color: var(--global-color-1);
     color: var(--global-color-4);
     font-weight: 400;
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 .sectionSix .btn:hover {
     background-color: var(--global-color-0);
     border: 1px solid var(--global-color-0);
 }
-
-
 
 /* before footer  */
 
@@ -714,7 +796,6 @@ font-weight: 600;
     gap: 2rem;
 }
 
-
 .beforefooter .box .logo {
     color: var(--global-color-1);
     text-decoration: none;
@@ -722,8 +803,8 @@ font-weight: 600;
     font-size: xx-large;
     font-family: var(--body-font);
 
-    text-shadow: .5px .5px 3px var(--global-color-1);
-    transition: .4s;
+    text-shadow: 0.5px 0.5px 3px var(--global-color-1);
+    transition: 0.4s;
     width: fit-content;
 }
 
@@ -735,14 +816,12 @@ font-weight: 600;
     text-decoration: none;
     font-size: xx-large;
     font-family: var(--body-font);
-
 }
 
 .beforefooter .box a {
     text-decoration: none;
     color: white;
 }
-
 
 .beforefooter .box .subscribe {
     display: flex;
@@ -751,8 +830,7 @@ font-weight: 600;
 .beforefooter .box .subscribe input {
     width: 60%;
     height: 55px;
-    padding: .5rem;
-
+    padding: 0.5rem;
 }
 
 .beforefooter .box .subscribe .btn {
@@ -761,9 +839,9 @@ font-weight: 600;
     background-color: none;
     background-color: var(--global-color-1);
     color: #fff;
-    padding: .8rem 2rem;
+    padding: 0.8rem 2rem;
     font-size: 20px;
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 .beforefooter .box .subscribe .btn:hover {
@@ -772,9 +850,9 @@ font-weight: 600;
 
 .beforefooter .box .icons a {
     border: 1px solid var(--global-color-1);
-    padding: .5rem;
+    padding: 0.5rem;
     background-color: var(--global-color-1);
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 
 .beforefooter .box .icons a:hover {
@@ -789,14 +867,6 @@ ul {
     padding: 0;
 }
 
-
-
-
-
-
-
-
-
 /* footer */
 footer {
     display: flex;
@@ -805,5 +875,18 @@ footer {
     padding: 4rem 2%;
     background-color: #1a1a1a;
     color: #fff;
+}
 
+@media (max-width: 450px) {
+    .sectionFirst .frontPage .btn {
+        margin-top: 3rem;
+        gap: 2rem;
+        padding: 3px 5px;
+    }
+
+    .sectionFirst .frontPage .btn a {
+        border-radius: 7px;
+        padding: 7px 10px;
+        text-decoration: none;
+    }
 }
