@@ -41,6 +41,12 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .sectionCard {
+        grid-template-columns: repeat(3, 1fr);
+        overflow: hidden;
+    }
+
+
     /* ----------.AboutMeInDetail--------- */
     .AboutMeInDetail {
         flex-direction: column;
@@ -191,6 +197,10 @@
     }
     /* section five  */
     .sectionFive {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sectionCard {
         grid-template-columns: repeat(1, 1fr);
     }
 
