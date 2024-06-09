@@ -898,11 +898,13 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    overflow: hidden;
 }
 
 .card {
     width: 100%;
     max-width: 340px;
+    justify-self: center;
 }
 .img_mobile {
     width: 100%;
@@ -946,8 +948,22 @@ footer {
     padding: 10px 0;
     border-radius: 10px;
     margin-top: 1rem;
+    font-size: .8rem;
 }
 .iconToCart {
     margin-right: 10px;
+}
+
+@media (max-width:900px) {
+    .sectionCard {
+        padding: 2% 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+
+    .card {
+        max-width: 340px;
+    }
 }
 
