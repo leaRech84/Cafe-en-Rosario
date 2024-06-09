@@ -207,6 +207,8 @@ h1,
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .nav_img {
@@ -949,39 +951,3 @@ footer {
     margin-right: 10px;
 }
 
-
-@media (min-width: 768px){
-    :root{
-        --margin_body_card: 16px;
-    }
-    .card {
-        display: flex;
-        max-width: 500px;
-        box-shadow: 3px 3px 10px #33333357;
-        border-radius: 14px;
-        background-color: var(--global-color-7);
-    }
-    .card_body_section {
-        border-radius: 0 14px 14px 0;
-    }
-    .card_body_section h3 {
-        font-size: 1.8rem;
-        overflow: hidden;
-    }
-    .card_body_paragraph {
-        font-size: .9rem;
-
-    }
-    .img_mobile {
-        display: none;
-    }
-    .img_desktop {
-        display: block;
-        width: 100%;
-        border-radius: 14px 0 0 14px;
-    }
-    .addToCart_btn {
-        padding: 15px 0;
-        cursor: pointer;
-    }
-}
