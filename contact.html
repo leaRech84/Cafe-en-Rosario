@@ -83,16 +83,17 @@
             </div>
 
             <form method="POST" id="form">
-                <input type="text" name="nombre" id="name" placeholder="Nombre Completo" required>
-                <input type="number" name="tel" id="telefono" placeholder="Teléfono" required>
-                <input type="email" name="mail" id="email" placeholder="Email" required>
+                <input type="text" name="nombre" id="name" placeholder="Nombre Completo">
+    
+                <input type="email" name="mail" id="email" placeholder="Email">
+                <input type="password" name="pass" id="password" placeholder="contraseña">
                 <select name="#" id="nom">
                     <option value="#" disabled>Seleccionar</option>
                     <option value="#">Soy usuario</option>
                     <option value="#">Soy emprendedor</option>
                     <option value="#">Prefiero no dar esa información</option>
                 </select>
-                <textarea name="nombre" id="noombretext" cols="30" rows="10" placeholder="Message"></textarea>
+                <textarea name="nombre" id="noombretext" cols="30" rows="10" placeholder="Message"></textarea> 
                 <button type="submit">Enviar</button>
                 <p class="warnings" id="warnings"></p>
             </form>
